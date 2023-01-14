@@ -1,0 +1,60 @@
+:root{
+    --cor_de_fundo: #00030C;
+    --cor_principal_fonte: #f6f6f6;
+    --cor_destaque_fonte: #22D4FD;
+    --fonte_principal: 'Montserrat';
+    --fonte_titulo: 'Krona One';
+}
+
+body{
+    background-color: var(--cor_de_fundo);
+    font-family: var(--fonte_principal);
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor_principal_fonte); 
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_primario{
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+}
+
+.container_textos h1{
+    font-family: var(--fonte_titulo);
+    font-size: 36px;
+    line-height: 1.5em;
+}
+
+.container_textos strong{
+    color: var(--cor_destaque_fonte);
+}
+
+.container_textos p{
+    line-height: 1.2em;
+}
+
+.container_links{
+    align-items: center;
+}
+
+.container_links a{
+    text-decoration: none;
+    color: var(--cor_de_fundo);
+}
+
+.container_links img{
+    height: 24px;
+}
+
+.container_imagem{
+    width: 200px;
+}
+
