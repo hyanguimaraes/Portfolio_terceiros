@@ -2,6 +2,7 @@
     --cor_de_fundo: #00030C;
     --cor_principal_fonte: #f6f6f6;
     --cor_destaque_fonte: #22D4FD;
+    --cor_destaque_botao_hover: #6DE2FD;
     --fonte_principal: 'Montserrat';
     --fonte_titulo: 'Krona One';
 }
@@ -11,20 +12,40 @@ body{
     font-family: var(--fonte_principal);
     font-size: 24px;
     font-weight: 400;
-    color: var(--cor_principal_fonte); 
+    color: var(--cor_principal_fonte);
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size: calc(24px * 0.8);
+        text-align: left;
+    }
 }
 
 main{
+    height: 100vh;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items:center;
+}
+
+@media screen and (max-width: 600px){
+    main{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .container_primario{
+    width: 600px;
     display: flex;
     flex-direction: column;
-    width: 615px;
+}
+
+@media screen and (max-width: 600px){
+    .container_primario{
+        width: 90vw;
+    }
 }
 
 .container_textos h1{
@@ -33,28 +54,74 @@ main{
     line-height: 1.5em;
 }
 
+@media screen and (max-width: 600px){
+    .container_textos h1{
+        font-size: calc(36px*0.8);
+    }
+}
+
 .container_textos strong{
     color: var(--cor_destaque_fonte);
 }
 
+.imagem_mobile{
+    display: none;
+}
+
 .container_textos p{
+    margin-top: 1.5em;
     line-height: 1.2em;
 }
 
 .container_links{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
-.container_links a{
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     text-decoration: none;
+    background-color: var(--cor_destaque_fonte);
     color: var(--cor_de_fundo);
+    padding: 0.7em;
+    border-radius: 5px;
+    transition: 0.6s;
+}
+
+.botao:hover{
+    scale: 1.05;
+    background-color: var(--cor_destaque_botao_hover);
 }
 
 .container_links img{
     height: 24px;
+    margin-right: 0.5em;
 }
 
-.container_imagem{
-    width: 200px;
+.container_secundario{
+    margin-left: 2em;
 }
 
+.foto{
+    max-height: 30vw;
+}
+
+@media screen and (max-width: 600px){
+    .container_secundario{
+        margin: 1.5em auto 0;
+    }
+
+    .imagem_mobile{
+        display: block;
+        margin-top: 1.5em;
+        text-align: center;
+    }
+
+    .imagem_desktop{
+        display: none;
+    }
+}
