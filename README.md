@@ -1,14 +1,14 @@
 <h1 align="center"> Exemplo de Portfólio </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/freeway/main/Jogo_final.gif#vitrinedev)MUDAR
+![](https://raw.githubusercontent.com/hyanguimaraes/Portfolio_terceiros/main/Curso_15_-_portfolio_finalizado.gif#vitrinedev)MUDAR
 
-![](https://img.shields.io/github/forks/hyanguimaraes/freeway?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/freeway?style=plastic)MUDAR
+![](https://img.shields.io/github/forks/hyanguimaraes/Portfolio_terceiros?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/Portfolio_terceiros?style=plastic)MUDAR
 
 📝 Descrição do projeto
 ---
-Exemplo de portfólio de terceiros criado para estudos de HTML e CSS. Este projeto é o caso de estudo do curso "HTML e CSS: ambiente, arquivos e tags" da Alura Cursos de Tecnologia. A plataforma disponibilizou este projeto no Figma e toda a parte em HTML e CSS foi feita por mim, seguindo as orientações dos instrutores quando necessário.
+Exemplo de portfólio de terceiros, simples e responsivo, criado para estudos de HTML e CSS. Este projeto é o caso de estudo do curso "HTML e CSS: ambiente, arquivos e tags" da Alura Cursos de Tecnologia. A plataforma disponibilizou este projeto no Figma e toda a parte em HTML e CSS foi feita por mim, seguindo as orientações dos instrutores quando necessário.
 
-[🔗 Acesse o projeto](https://hyanguimaraes.github.io/Freeway/)MUDAR
+[🔗 Acesse o projeto](https://hyanguimaraes.github.io/Portfolio_terceiros/)MUDAR
 
 [📚 Página do curso "HTML e CSS: ambiente, arquivos e tags" na plataforma Alura](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags)
 
