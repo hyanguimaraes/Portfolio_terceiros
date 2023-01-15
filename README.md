@@ -1,6 +1,6 @@
 <h1 align="center"> Exemplo de Portfólio </h1>
 
-![](https://raw.githubusercontent.com/hyanguimaraes/Portfolio_terceiros/main/Curso_15_-_portfolio_finalizado.gif#vitrinedev)MUDAR
+![](https://raw.githubusercontent.com/hyanguimaraes/Portfolio_terceiros/main/img/Curso_15_-_portfolio_finalizado.gif#vitrinedev)MUDAR
 
 ![](https://img.shields.io/github/forks/hyanguimaraes/Portfolio_terceiros?style=social) ![](https://img.shields.io/github/last-commit/hyanguimaraes/Portfolio_terceiros?style=plastic)MUDAR
 
